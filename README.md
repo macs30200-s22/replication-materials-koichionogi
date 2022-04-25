@@ -22,15 +22,12 @@ I used STATA software for this analysis and code is wirtten in do-files(details 
 2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 
 ## Initial Findings
+Belows are initial findings of analysis. First figure shows AAA. Next figure shows BBB. The last table shows CCC. Those results are significant because XXXX. Next, this research would YYY . Finally, ZZZZ
 First, there is an increasing trends of market concentration
 ![png](sales_concentration.png)
 
 Correlation with top 0.1% and 1% is statisitically significant
 ![png](agg_correlation.png)
-
-Those results is significant because XXXX.Next, this research would YYY . Finally, ZZZZ
-
-
 Belowsa are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
   2.  "==========================================================================" 
