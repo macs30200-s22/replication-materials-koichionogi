@@ -14,7 +14,7 @@ Target range                    | datasets - (wether obtained already?)
 Datasets are stored below:
 a. Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
 b. Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta)
-c. On process:(scraping)
+c. On process:Refering codings from the previous project by Baotong Zhang, Guangyuan Chen, Sophie Wang, and Zhe Zhang(data_scraping.ipynb)
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
 1. cps_00002.do - to clean up dat raw data for wage to stata data file with labels
