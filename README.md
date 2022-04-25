@@ -1,7 +1,7 @@
 
 
 # Sales Concentration by Large Firms and Wage Inequality
-
+## Data sorces
 Anlaysis of this research is consisted of four parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
 Target range                    | datasets - (wether obtained already?)
@@ -11,12 +11,16 @@ Target range                    | datasets - (wether obtained already?)
 3.By Occupation×Industry.       | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
 4.By Firm×Industry(supplimental)| a.Concentration – Yes(1959-2018) c.Scraping(2021?) - On process
 
+Datasets are stored below:
+a. Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
+b. Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta)
+c. On process:(scraping)
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
 1. cps_00002.do - to clean up dat raw data for wage to stata data file with labels
 2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
-(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
 
+## Initial Findings
 First, there is an increasing trends of market concentration
 ![png](sales_concentration.png)
 
