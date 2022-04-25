@@ -4,18 +4,12 @@
 
 Anlaysis of this research is consisted of four parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
-1.	Entire market
-  a.	Concentration – Yes(1938-2018)
-  b.	Wage – Yes(2003-2018), but there might be better data
-2.	By industry
-  a.	Concentration – Yes(1938-2018)
-  b.	Wage – Yes(2003-2018), but there might be better data
-3.	By Occupation×industry
-  a.	Concentration – Yes(1938-2018)
-  b.	Wage – Yes (2003-2018), but there might be better data
-4.	By Firm×industry
-  a.	Concentration – Yes(1938-2014)
-  b.	Wage – Scraping but no data for data above
+Target range                    | datasets - (wether obtained already?)
+------------------------------- | ---------------------------------------------------------------
+1.Entire market.                | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
+2.By Industry.                  | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
+3.By Occupation×Industry.       | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
+4.By Firm×Industry(supplimental)| a.Concentration – Yes(1959-2018) c.Scraping(2021?) - On process
 
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
