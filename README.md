@@ -13,40 +13,18 @@ Target range                    | datasets - (wether obtained already?)
 
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
-  
-
-```
-pip install -r requirements.txt
-```
-
-Then, you can import the `analysis` module located in this repository to reproduce the analysis in the (hypothetical) publication that this code supplements (in a Jupyter Notebook, like README.ipynb in this repository, or in any other Python script):
-
-
-```python
-import analysis
-```
-
-You can then use the `process_data` function in the `analysis` module to process the data and get it ready to analyze. The `plot` function will reproduce Figure 1 from the (hypothetical) publication.
-
-
-```python
-df = analysis.process_data('data.csv')
-analysis.plot(df)
-```
-
+1. cps_00002.do - to clean up dat raw data for wage to stata data file with labels
+2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 (https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
+
+First, there is an increasing trends of market concentration
 ![png](sales_concentration.png)
 
+Correlation with top 0.1% and 1% is statisitically significant
 ![png](agg_correlation.png)
 
 
-
-Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
-
-If you use this repository for a scientific publication, we would appreciate it if you cited the [Zenodo DOI](https://doi.org/10.5281/zenodo.6429151) (see the "Cite as" section on our Zenodo page for more details).
-
-
-Notes for lisence:
+Belowsa are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
   2.  "==========================================================================" 
   3.  "                  Use subject to Creative Commons                         " 
