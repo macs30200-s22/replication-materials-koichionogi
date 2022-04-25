@@ -28,6 +28,7 @@ First, there is an increasing trends of market concentration
 
 Correlation with top 0.1% and 1% is statisitically significant
 ![png](agg_correlation.png)
+## Citation
 Belows are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
   2.  "==========================================================================" 
@@ -81,3 +82,7 @@ Belows are notes for lisence to use the concentration database:
  50.  " Kaspar Zimmermann. 2022. 100 Years of Rising Corporate Concentration.    "
  51.  " We advise making explicit reference to the date when the database was    "
  52.  " consulted, as statistics are subject to revisions.                       "
+
+Citation for wage data from CPS
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren and Michael Westberry. Integrated Public Use Microdata Series, Current Population Survey: Version 9.0 [dataset]. Minneapolis, MN: IPUMS, 2021.
+https://doi.org/10.18128/D030.V9.0
