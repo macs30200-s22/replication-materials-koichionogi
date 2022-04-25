@@ -28,7 +28,7 @@ First, there is an increasing trends of market concentration
 
 Correlation with top 0.1% and 1% is statisitically significant
 ![png](agg_correlation.png)
-Belowsa are notes for lisence to use the concentration database:
+Belows are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
   2.  "==========================================================================" 
   3.  "                  Use subject to Creative Commons                         " 
