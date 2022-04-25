@@ -41,6 +41,7 @@ analysis.plot(df)
 ```
 
 (https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
+![png](sales_concentration.png)
 
 ![png](agg_correlation.png)
 
