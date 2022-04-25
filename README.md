@@ -25,7 +25,7 @@ df = analysis.process_data('data.csv')
 analysis.plot(df)
 ```
 
-[![GoogleDrive](https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
+(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing)
 
 ![png](xxxx)
 
