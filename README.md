@@ -22,8 +22,8 @@ I used STATA software for this analysis and code is wirtten in do-files(details 
 2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 
 ## Initial Findings
-Belows are initial findings of analysis. First figure shows AAA. Next figure shows BBB. The last table shows CCC. Correlation with top 0.1% and 1% is statisitically significant Those results are significant because XXXX. Next, this research would YYY . Finally, ZZZZ
-First, there is an increasing trends of market concentration
+Belows are initial findings of analysis. First figure shows historical trends of market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50%. While share of top50% has not changed much, top 0.1% and 1% share has been increasing. Next figure shows the historical trend of wage inequality, utilizig gini coefficient of wage. Higher number means more inequality among the wage distribution. The last table shows results of OLS regression between wage gini coefficient with market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50%. It shows that correlation with top 0.1% and 1% is statisitically significant. Those results are crutial because as entire market and ignoring other covariates, there seems correlation between market concentration and wage inequality. This could be scrutinized further to see what would be composition of this correlation. Next, this research would check this correlation by industry and occupation.
+
 ![png](sales_concentration.png)
 ![png](wage_inequality.png)
 
