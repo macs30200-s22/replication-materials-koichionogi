@@ -27,7 +27,22 @@ First, there is an increasing trends of market concentration
 ![png](sales_concentration.png)
 
 Correlation with top 0.1% and 1% is statisitically significant
-![png](agg_correlation.png)
+Regression b/w wage inequality and market concentration
+|                          | top 0.1% | top 1% | top 10%  | top 50%  |
+| ------------------------ | -------- | ------ | -------- | -------- |
+| Coefficient              |          |        |          |          |
+|   Top 0.1% receipt share | .227**   |        |          |          |
+|   Top 1% receipt share   |          | .291** |          |          |
+|   Top 10% receipt share  |          |        | .713     |          |
+|   Top 50% receipt share  |          |        |          | 7.03     |
+|   Intercept              | .34**    | .254** | -.178*** | -6.51*** |
+| Std. error               |          |        |          |          |
+|   Top 0.1% receipt share | .039**   |        |          |          |
+|   Top 1% receipt share   |          | .048** |          |          |
+|   Top 10% receipt share  |          |        | .117     |          |
+|   Top 50% receipt share  |          |        |          | 1.19     |
+|   Intercept              | .024**   | .036** | .107***  | 1.18***  |
+*** p<.01, ** p<.05, * p<.1
 ## Citation
 Belows are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
