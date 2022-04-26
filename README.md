@@ -18,13 +18,14 @@ Datasets are stored below:
 4. c)Wage: On process-Refering codings from the previous project by Baotong Zhang, Guangyuan Chen, Sophie Wang, and Zhe Zhang(data_scraping.ipynb): I will cite them accordingly
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
-1. cps_00002.do - to clean up dat raw data for wage to stata data file with labels
+1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels
 2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 
 ## Initial Findings
 Belows are initial findings of analysis. First figure shows AAA. Next figure shows BBB. The last table shows CCC. Correlation with top 0.1% and 1% is statisitically significant Those results are significant because XXXX. Next, this research would YYY . Finally, ZZZZ
 First, there is an increasing trends of market concentration
 ![png](sales_concentration.png)
+![png](wage_inequality.png)
 
 Regression b/w wage inequality and market concentration
 |                          | top 0.1% | top 1% | top 10%  | top 50%  |
