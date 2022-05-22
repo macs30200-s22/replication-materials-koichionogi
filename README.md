@@ -20,9 +20,9 @@ Datasets are stored below:
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
 1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels
-2. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
+3. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 
-## Initial Findings
+## Some of Findings
 Belows are initial findings of analysis. First figure shows historical trends of market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50% from 1959 to 2018. While share of top50% has not changed much, top 0.1% and 1% share has been increasing. Next figure shows the historical trend of wage inequality, utilizig gini coefficient of wage, from 1989 to 2021. Higher number means more inequality among the wage distribution. The last table shows results of OLS regression between wage gini coefficient with market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50% in the time period of 1989-2018. It shows that correlations with top 0.1% and 1% are positive and statisitically significant. Those results are crutial because, as for entire market and ignoring other covariates, there seems correlation between market concentration and wage inequality, meaning that the increase in sales share of top large firms could lead higher wage inequality among labor. This could be scrutinized further to see what would be composition of this correlation. Next, this research would check this correlation by industry and occupation.
 
 ![png](sales_concentration.png)
@@ -44,6 +44,10 @@ Regression b/w wage inequality and market concentration
 |   Top 50% receipt share  |          |        |          | 1.19     |
 |   Intercept              | .024**   | .036** | .107***  | 1.18***  |
 *** p<.01, ** p<.05, * p<.1
+
+
+
+
 ## Citation
 Belows are notes for lisence to use the concentration database:
   1.  "               US corporate concentration database                        " 
