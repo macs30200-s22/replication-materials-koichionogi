@@ -14,7 +14,6 @@ Target range                    | datasets
 Datasets are stored below:
 1. a)Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing): Citation for license permission is noted at the end of this file. License looks like below and this research follows the same license format(https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 3. b)Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta): Citatation/bibliography would be created via https://bibliography.ipums.org/
-4. c)Wage: On process-Refering codings from the previous project by Baotong Zhang, Guangyuan Chen, Sophie Wang, and Zhe Zhang(data_scraping.ipynb): I will cite them accordingly
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
 1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels
