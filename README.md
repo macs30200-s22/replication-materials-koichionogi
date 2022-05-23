@@ -43,8 +43,15 @@ Regression b/w wage inequality and market concentration
 |   Intercept              | .024**   | .036** | .107***  | 1.18***  |
 *** p<.01, ** p<.05, * p<.1
 
-
-
+![png](file1.png)
+![png](file2.png)
+![png](file3.png)
+![png](file4.png)
+![png](file5.png)
+![png](file6.png)
+![png](file7.png)
+![png](file8.png)
+![png](file9.png)
 
 ## Citation
 Belows are notes for lisence to use the concentration database:
