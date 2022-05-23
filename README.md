@@ -5,16 +5,14 @@
 I used STATA_SE17.0 for this research
 Anlaysis of this research is consisted of four parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
-Target range                    | datasets - (wether obtained already?)
+Target range                    | datasets 
 ------------------------------- | ---------------------------------------------------------------
 1.Entire market.                | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
-2.By Industry.                  | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
-3.By Occupation×Industry.       | a.Concentration – Yes(1959-2018) b.Wage – Yes(1969-2021)
-4.By Firm×Industry(supplimental)| a.Concentration – Yes(1959-2018) c.Scraping(2021?) - On process
+2.By Industry.                  | a.Concentration – Yes(1959-2013) b.Wage – Yes(1969-2021)
+3.By Occupation×Industry.       | a.Concentration – Yes(1959-2013) b.Wage – Yes(1969-2021)
 
 Datasets are stored below:
 1. a)Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing): Citation for license permission is noted at the end of this file. License looks like below and this research follows the same license format(https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-![png](license.png)
 3. b)Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta): Citatation/bibliography would be created via https://bibliography.ipums.org/
 4. c)Wage: On process-Refering codings from the previous project by Baotong Zhang, Guangyuan Chen, Sophie Wang, and Zhe Zhang(data_scraping.ipynb): I will cite them accordingly
 
