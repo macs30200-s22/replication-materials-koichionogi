@@ -2,7 +2,7 @@
 
 # Sales Concentration by Large Firms and Wage Inequality
 ## Data sorces
-I used STATA_SE17.0 for this research
+Programming Package: STATA_SE17.0
 Anlaysis of this research is consisted of four parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
 Target range                    | datasets 
