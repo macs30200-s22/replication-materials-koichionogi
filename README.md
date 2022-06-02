@@ -4,7 +4,7 @@
 ## Data sorces
 Programming Package: STATA_SE17.0
 
-Anlaysis of this research is consisted of four parts(three for main analysis and one for supplimental analysis)
+Anlaysis of this research is consisted of three parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
 Target range                    | datasets 
 ------------------------------- | ---------------------------------------------------------------
