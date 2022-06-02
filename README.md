@@ -13,12 +13,14 @@ Target range                    | datasets
 3.By Occupation×Industry.       | a.Concentration – Yes(1959-2013) b.Wage – Yes(1969-2021)
 
 Datasets are stored below:
-1. a)Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing): Citation for license permission is noted at the end of this file. License looks like below and this research follows the same license format(https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+1. a)Sales Concentration(https://drive.google.com/drive/folders/1REoUazv3zmBZGkrBYfjohFTKdIisw4CX?usp=sharing): Citation for license permission is noted at the end of this file.
 3. b)Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta): Citatation/bibliography would be created via https://bibliography.ipums.org/
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
 1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels
 3. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 ## Some of Findings
 Belows are initial findings of analysis. First figure shows historical trends of market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50% from 1959 to 2018. While share of top50% has not changed much, top 0.1% and 1% share has been increasing. Next figure shows the historical trend of wage inequality, utilizig gini coefficient of wage, from 1989 to 2021. Higher number means more inequality among the wage distribution. The next table shows results of OLS regression between wage gini coefficient with market concentration of sales as sales share or top 0.1%, 1%, 10%, and 50% in the time period of 1989-2018. It shows that correlations with top 0.1% and 1% are positive and statisitically significant. Those results are crutial because, as for entire market and ignoring other covariates, there seems correlation between market concentration and wage inequality, meaning that the increase in sales share of top large firms could lead higher wage inequality among labor. 
