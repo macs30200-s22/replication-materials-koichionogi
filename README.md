@@ -2,7 +2,8 @@
 
 # Sales Concentration by Large Firms and Wage Inequality
 ## Data sorces
-Programming Package: STATA_SE17.0
+Programming: STATA_SE17.0
+Package: estout
 
 Anlaysis of this research is consisted of three parts(three for main analysis and one for supplimental analysis)
 Analysis (concentration vs wage inequality)
@@ -17,7 +18,7 @@ Datasets are stored below:
 3. b)Wage: Entire market(agg_concent_R1(1).dta) and by industry(sector_concent_R1.dta): Citatation/bibliography would be created via https://bibliography.ipums.org/
 
 I used STATA software for this analysis and code is wirtten in do-files(details blow)
-1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels
+1. cps_00003.do - to clean up dat raw data for wage to stata data file with labels (raw data should be downloaded via https://cps.ipums.org/cps/)
 3. clean_agg_con_data.do - clean up data and cacluclate gini coefficient for wages
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
