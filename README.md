@@ -3,6 +3,7 @@
 # Sales Concentration by Large Firms and Wage Inequality
 ## Data sorces
 Programming: STATA_SE17.0
+
 Package: estout
 
 Anlaysis of this research is consisted of three parts(three for main analysis and one for supplimental analysis)
